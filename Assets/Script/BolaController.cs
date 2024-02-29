@@ -22,5 +22,7 @@ public class BolaController : MonoBehaviour
         {
             rig.velocity = rig.velocity.normalized * maxSpeed;
         }
+
+
     }
 }
