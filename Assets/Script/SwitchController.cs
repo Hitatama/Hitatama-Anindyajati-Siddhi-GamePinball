@@ -17,6 +17,7 @@ public class SwitchController : MonoBehaviour
     public float score;
 
     public ScoreManager scoreManager;
+    private AudioSource audioSource;
 
     private SwtichState state;
     private Renderer render;
@@ -28,6 +29,7 @@ public class SwitchController : MonoBehaviour
         Set(false);
 
         StartCoroutine(BlinkTimerStart(5));
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,6 +37,7 @@ public class SwitchController : MonoBehaviour
         if (other == bola)
         {
             Toggle();
+            audioSource.Play();
         }
 
     }
