@@ -17,6 +17,8 @@ public class SwitchController : MonoBehaviour
     public float score;
 
     public ScoreManager scoreManager;
+    private AudioSource audioSource;
+    public VFXManager vfxManager;
 
     private SwtichState state;
     private Renderer render;
@@ -28,13 +30,17 @@ public class SwitchController : MonoBehaviour
         Set(false);
 
         StartCoroutine(BlinkTimerStart(5));
+        audioSource = GetComponent<AudioSource>();
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other == bola)
         {
+            vfxManager.PlayVFX(other.transform.position);
             Toggle();
+            audioSource.Play();
         }
 
     }
