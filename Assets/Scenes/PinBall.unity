@@ -4564,6 +4564,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 1603489206}
+    - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 687856989}
@@ -5137,6 +5141,10 @@ PrefabInstance:
       propertyPath: score
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 1603489206}
     - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
       propertyPath: scoreManager
       value: 
@@ -6341,6 +6349,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 1603489206}
+    - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 687856989}
@@ -7329,6 +7341,10 @@ PrefabInstance:
       propertyPath: score
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 1603489206}
     - target: {fileID: 4444788044040698563, guid: 44d114ee0dfe9434d8238d401d1b1b4c, type: 3}
       propertyPath: scoreManager
       value: 
